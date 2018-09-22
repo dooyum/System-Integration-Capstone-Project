@@ -78,7 +78,6 @@ class WaypointLoader(object):
         lane.waypoints = waypoints
         self.pub.publish(lane)
 
-
 if __name__ == '__main__':
     try:
         WaypointLoader()
